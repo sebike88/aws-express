@@ -5,7 +5,7 @@ const port = process.env.port || 3000;
 
 app.get('/', (req, res) => {
   console.log('homepage');
-  res.send('Welcome to the homepage');
+  res.send('Welcome to the updated homepage');
 });
 
 app.listen(port, () => {
